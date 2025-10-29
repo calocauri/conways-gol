@@ -47,8 +47,8 @@ int main()
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    const int screenWidth = 1920;
-    const int screenHeight = 1080;
+    const int screenWidth = 800;
+    const int screenHeight = 600;
     
     grid_w = screenWidth/square_len;
     grid_h = screenHeight/square_len;
@@ -159,7 +159,7 @@ static void UpdateDrawFrame(int n, int w, int h, int (*a)[h], int (*b)[h])
             for(int j=0; j<grid_h; j++)
             {
                 if(a[i][j])
-                DrawRectangle(i*square_len+1,j*square_len+1, square_len-2, square_len-2, WHITE);
+                DrawRectangle(i*square_len+1,j*square_len+1, square_len-2, square_len-2, BLUE);
             }
         }
 
