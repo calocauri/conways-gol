@@ -159,7 +159,7 @@ static void UpdateDrawFrame(int n, int w, int h, int (*a)[h], int (*b)[h])
             for(int j=0; j<grid_h; j++)
             {
                 if(a[i][j])
-                DrawRectangle(i*square_len+1,j*square_len+1, square_len-2, square_len-2, BEIGE);
+                DrawRectangle(i*square_len+1,j*square_len+1, square_len-2, square_len-2, RED);
             }
         }
 
